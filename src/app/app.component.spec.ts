@@ -24,6 +24,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tests-app');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Curso Testes Unitários com Angular / Jasmine e karma');
   });
 });
